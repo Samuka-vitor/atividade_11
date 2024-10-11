@@ -5,6 +5,7 @@ a = float(input("Digite o valor de 'a': "))
 b = float(input("Digite o valor de 'b': "))
 
 def calcular_funcao(a,b):
+    if a != 0:
         x = -b/a
         return x
 
